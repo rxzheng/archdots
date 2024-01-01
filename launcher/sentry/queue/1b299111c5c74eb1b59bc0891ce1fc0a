@@ -1,0 +1,3 @@
+{"sent_at":"2023-12-26T07:41:12.696Z","sdk":{"name":"sentry.javascript.electron","version":"4.8.0"}}
+{"type":"session"}
+{"sid":"7e5eafddd7c14a8ba27cc61406dc045b","init":true,"started":"2023-12-26T05:55:36.294Z","timestamp":"2023-12-26T07:41:12.696Z","status":"exited","errors":0,"did":"theRetaliation","duration":6336.4019939899445,"attrs":{"release":"launcher@3.1.3","environment":"production"}}

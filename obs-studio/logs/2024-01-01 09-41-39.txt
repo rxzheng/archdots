@@ -1,0 +1,228 @@
+09:41:39.246: Platform: Wayland
+09:41:39.246: CPU Name: AMD Ryzen 5 5600 6-Core Processor
+09:41:39.246: CPU Speed: 3558.842MHz
+09:41:39.246: Physical Cores: 6, Logical Cores: 12
+09:41:39.246: Physical Memory: 15915MB Total, 8923MB Free
+09:41:39.246: Kernel Version: Linux 6.6.8-arch1-1
+09:41:39.246: Distribution: "Arch Linux" Unknown
+09:41:39.246: Desktop Environment: Hyprland (Hyprland)
+09:41:39.246: Session Type: wayland
+09:41:39.248: Qt Version: 6.6.1 (runtime), 6.6.1 (compiled)
+09:41:39.248: Portable mode: false
+09:41:39.265: OBS 30.0.2-1 (linux)
+09:41:39.265: ---------------------------------
+09:41:39.266: ---------------------------------
+09:41:39.266: audio settings reset:
+09:41:39.266: 	samples per sec: 48000
+09:41:39.266: 	speakers:        2
+09:41:39.266: 	max buffering:   960 milliseconds
+09:41:39.266: 	buffering type:  dynamically increasing
+09:41:39.267: ---------------------------------
+09:41:39.267: Initializing OpenGL...
+09:41:39.267: Using EGL/Wayland
+09:41:39.298: Initialized EGL 1.5
+09:41:39.308: Loading up OpenGL on adapter AMD AMD Radeon RX 6600 (radeonsi, navi23, LLVM 16.0.6, DRM 3.54, 6.6.8-arch1-1)
+09:41:39.308: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.3.1-arch1.1, shading language 4.60
+09:41:39.331: ---------------------------------
+09:41:39.331: video settings reset:
+09:41:39.331: 	base resolution:   1920x1080
+09:41:39.331: 	output resolution: 1920x1080
+09:41:39.331: 	downscale filter:  Bicubic
+09:41:39.331: 	fps:               60/1
+09:41:39.331: 	format:            NV12
+09:41:39.331: 	YUV mode:          Rec. 709/Partial
+09:41:39.331: NV12 texture support not available
+09:41:39.331: P010 texture support not available
+09:41:39.332: Audio monitoring device:
+09:41:39.332: 	name: Default
+09:41:39.332: 	id: default
+09:41:39.332: ---------------------------------
+09:41:39.338: Failed to load 'en-US' text for module: 'decklink-captions.so'
+09:41:39.344: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+09:41:39.349: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:41:39.349: Failed to initialize module 'decklink.so'
+09:41:39.438: [pipewire] Available captures:
+09:41:39.438: [pipewire]     - Desktop capture
+09:41:39.438: [pipewire]     - Window capture
+09:41:39.453: v4l2loopback not installed, virtual camera disabled
+09:41:39.481: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+09:41:39.481: FFmpeg VAAPI H264 encoding not supported
+09:41:39.481: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+09:41:39.481: FFmpeg VAAPI HEVC encoding not supported
+09:41:39.537: ---------------------------------
+09:41:39.537:   Loaded Modules:
+09:41:39.537:     text-freetype2.so
+09:41:39.537:     rtmp-services.so
+09:41:39.537:     obs-x264.so
+09:41:39.537:     obs-vst.so
+09:41:39.537:     obs-transitions.so
+09:41:39.537:     obs-qsv11.so
+09:41:39.537:     obs-outputs.so
+09:41:39.537:     obs-libfdk.so
+09:41:39.537:     obs-filters.so
+09:41:39.537:     obs-ffmpeg.so
+09:41:39.537:     linux-v4l2.so
+09:41:39.537:     linux-pulseaudio.so
+09:41:39.537:     linux-pipewire.so
+09:41:39.537:     linux-jack.so
+09:41:39.537:     linux-capture.so
+09:41:39.537:     linux-alsa.so
+09:41:39.537:     image-source.so
+09:41:39.537:     frontend-tools.so
+09:41:39.537:     decklink-output-ui.so
+09:41:39.537:     decklink-captions.so
+09:41:39.537: ---------------------------------
+09:41:39.537: ==== Startup complete ===============================================
+09:41:39.567: All scene data cleared
+09:41:39.567: ------------------------------------------------
+09:41:39.569: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+09:41:39.569: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:41:39.570: pulse-input: Started recording from 'alsa_output.pci-0000_2f_00.4.analog-stereo.monitor' (default)
+09:41:39.570: [Loaded global audio device]: 'Desktop Audio'
+09:41:39.570: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+09:41:39.570: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:41:39.570: pulse-input: Started recording from 'alsa_input.pci-0000_2f_00.4.analog-stereo.2' (default)
+09:41:39.570: [Loaded global audio device]: 'Mic/Aux'
+09:41:39.570: PipeWire initialized
+09:41:39.571: Switched to scene 'Scene'
+09:41:39.571: ------------------------------------------------
+09:41:39.571: Loaded scenes:
+09:41:39.571: - scene 'Scene':
+09:41:39.571:     - source: 'Screen Capture' (pipewire-desktop-capture-source)
+09:41:39.571: - scene 'wait':
+09:41:39.571: ------------------------------------------------
+09:41:39.601: [pipewire] Screencast session created
+09:41:40.141: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+09:41:40.141: 
+09:41:41.592: [pipewire] Asking for desktop
+09:41:41.594: [pipewire] desktop selected, setting up screencast
+09:41:41.598: [pipewire] Server version: 1.0.0
+09:41:41.598: [pipewire] Library version: 1.0.0
+09:41:41.598: [pipewire] Header version: 1.0.0
+09:41:41.599: [pipewire] Created stream 0x56467e1d5510
+09:41:41.599: [pipewire] Stream 0x56467e1d5510 state: "connecting" (error: none)
+09:41:41.599: [pipewire] Playing stream 0x56467e1d5510
+09:41:41.599: [pipewire] Stream 0x56467e1d5510 state: "paused" (error: none)
+09:41:41.601: [pipewire] Negotiated format:
+09:41:41.601: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:41:41.601: [pipewire]     Modifier: 0x0
+09:41:41.601: [pipewire]     Size: 1920x1080
+09:41:41.601: [pipewire]     Framerate: 0/1
+09:41:41.601: [pipewire] Negotiated format:
+09:41:41.601: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:41:41.601: [pipewire]     Modifier: 0x20000001876bb03
+09:41:41.601: [pipewire]     Size: 1920x1080
+09:41:41.601: [pipewire]     Framerate: 0/1
+09:41:41.602: [pipewire] Stream 0x56467e1d5510 state: "streaming" (error: none)
+09:41:41.606: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+09:41:41.606: [pipewire] Renegotiating stream
+09:41:41.606: [pipewire] Negotiated format:
+09:41:41.606: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:41:41.606: [pipewire]     Modifier: 0x20000001876bb03
+09:41:41.606: [pipewire]     Size: 1920x1080
+09:41:41.606: [pipewire]     Framerate: 0/1
+09:41:41.606: [pipewire] Negotiated format:
+09:41:41.606: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:41:41.606: [pipewire]     Modifier: 0x200000018767b03
+09:41:41.606: [pipewire]     Size: 1920x1080
+09:41:41.606: [pipewire]     Framerate: 0/1
+09:41:41.624: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+09:41:41.624: [pipewire] Renegotiating stream
+09:41:41.624: [pipewire] Stream 0x56467e1d5510 state: "paused" (error: none)
+09:41:41.624: [pipewire] Negotiated format:
+09:41:41.624: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:41:41.624: [pipewire]     Modifier: 0x200000018767b03
+09:41:41.624: [pipewire]     Size: 1920x1080
+09:41:41.624: [pipewire]     Framerate: 0/1
+09:41:41.624: [pipewire] Negotiated format:
+09:41:41.624: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:41:41.624: [pipewire]     Modifier: 0x200000018737b03
+09:41:41.624: [pipewire]     Size: 1920x1080
+09:41:41.624: [pipewire]     Framerate: 0/1
+09:41:41.625: [pipewire] Stream 0x56467e1d5510 state: "streaming" (error: none)
+09:41:41.641: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+09:41:41.641: [pipewire] Renegotiating stream
+09:41:41.641: [pipewire] Negotiated format:
+09:41:41.641: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:41:41.641: [pipewire]     Modifier: 0x200000018737b03
+09:41:41.641: [pipewire]     Size: 1920x1080
+09:41:41.641: [pipewire]     Framerate: 0/1
+09:41:41.642: [pipewire] Negotiated format:
+09:41:41.642: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+09:41:41.642: [pipewire]     Modifier: 0x200000018601b03
+09:41:41.642: [pipewire]     Size: 1920x1080
+09:41:41.642: [pipewire]     Framerate: 0/1
+09:41:57.734: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+09:41:57.734: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:41:57.734: pulse-input: Started recording from 'alsa_input.pci-0000_2f_00.4.analog-stereo.2' (default)
+09:41:57.736: User added source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) to scene 'Scene'
+09:41:58.935: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Audio Input Capture (PulseAudio))
+09:41:58.935: 
+09:42:11.298:   OpenType support missing for "Open Sans", script 11
+09:42:11.299:   OpenType support missing for "Open Sans", script 12
+09:42:11.299:   OpenType support missing for "Open Sans", script 16
+09:42:11.301:   OpenType support missing for "Open Sans", script 20
+09:42:21.916: ---------------------------------
+09:42:21.917: [x264 encoder: 'simple_video_recording'] preset: veryfast
+09:42:21.917: [x264 encoder: 'simple_video_recording'] profile: high
+09:42:21.917: [x264 encoder: 'simple_video_recording'] settings:
+09:42:21.917: 	rate_control: CRF
+09:42:21.917: 	bitrate:      0
+09:42:21.917: 	buffer size:  0
+09:42:21.917: 	crf:          23
+09:42:21.917: 	fps_num:      60
+09:42:21.917: 	fps_den:      1
+09:42:21.917: 	width:        1920
+09:42:21.917: 	height:       1080
+09:42:21.917: 	keyint:       250
+09:42:21.917: 
+09:42:21.926: libfdk_aac encoder created
+09:42:21.926: libfdk_aac bitrate: 192, channels: 2
+09:42:21.944: ==== Recording Start ===============================================
+09:42:21.944: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/rxzheng/recordings/2024-01-01 09-42-21.mp4'...
+09:42:21.946: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+09:42:24.769: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/rxzheng/recordings/2024-01-01 09-42-21.mp4' stopped
+09:42:24.769: Output 'simple_file_output': stopping
+09:42:24.769: Output 'simple_file_output': Total frames output: 138
+09:42:24.769: Output 'simple_file_output': Total drawn frames: 170
+09:42:24.769: ==== Recording Stop ================================================
+09:42:24.775: libfdk_aac encoder destroyed
+09:43:38.109: User Removed source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) from scene 'Scene'
+09:43:38.116: pulse-input: Stopped recording from 'alsa_input.pci-0000_2f_00.4.analog-stereo.2'
+09:43:38.116: pulse-input: Got 4014 packets with 4816800 frames
+09:43:41.926: alsa-input: PCM 'default' rate set to 44100
+09:43:41.926: alsa-input: PCM 'default' channels set to 2
+09:43:41.932: User added source 'Audio Capture Device (ALSA)' (alsa_input_capture) to scene 'Scene'
+09:43:59.669: Creating a popup with a parent, QWidgetWindow(0x56467c579150, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x56467d46a080, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+09:44:06.059: User Removed source 'Audio Capture Device (ALSA)' (alsa_input_capture) from scene 'Scene'
+09:44:21.687: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.0) 15.0.0'
+09:44:21.687: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:44:21.687: pulse-input: Started recording from 'alsa_input.pci-0000_2f_00.4.analog-stereo.2' (default)
+09:44:21.689: User added source 'Audio Input Capture (PulseAudio)' (pulse_input_capture) to scene 'Scene'
+09:44:28.677: ---------------------------------
+09:44:28.677: [x264 encoder: 'simple_video_recording'] preset: veryfast
+09:44:28.677: [x264 encoder: 'simple_video_recording'] profile: high
+09:44:28.677: [x264 encoder: 'simple_video_recording'] settings:
+09:44:28.677: 	rate_control: CRF
+09:44:28.677: 	bitrate:      0
+09:44:28.677: 	buffer size:  0
+09:44:28.677: 	crf:          23
+09:44:28.677: 	fps_num:      60
+09:44:28.677: 	fps_den:      1
+09:44:28.677: 	width:        1920
+09:44:28.677: 	height:       1080
+09:44:28.677: 	keyint:       250
+09:44:28.677: 
+09:44:28.689: libfdk_aac encoder created
+09:44:28.689: libfdk_aac bitrate: 192, channels: 2
+09:44:28.690: ==== Recording Start ===============================================
+09:44:28.690: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/rxzheng/recordings/2024-01-01 09-44-28.mp4'...
+09:44:28.692: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Inhibit” on object at path /org/freedesktop/portal/desktop
+09:44:34.586: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/rxzheng/recordings/2024-01-01 09-44-28.mp4' stopped
+09:44:34.586: Output 'simple_file_output': stopping
+09:44:34.586: Output 'simple_file_output': Total frames output: 321
+09:44:34.586: Output 'simple_file_output': Total drawn frames: 354
+09:44:34.587: ==== Recording Stop ================================================
+09:44:34.594: libfdk_aac encoder destroyed
+09:46:22.838: Creating a popup with a parent, QWidgetWindow(0x56467c579150, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x56467ea19440, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+09:46:28.262: Creating a popup with a parent, QWidgetWindow(0x56467c579150, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x56467eee0700, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
